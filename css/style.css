@@ -1,9 +1,11 @@
 body{
     font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
 }
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .container{
@@ -314,9 +316,10 @@ body{
 }
 
 .boshsection{
+    width: 1300px;
     height: 543px;
     background: #00BAFC;
-    
+    margin: auto;
 }
 
 .formeg{
@@ -386,13 +389,48 @@ body{
     margin: 0px 90.5px 24px 90.5px;
 }
 
+.footer {
+    width: 1300px;
+    height: 338px;
+    background-color: #000000;
+    margin: auto;
+    display: flex;
+}
+
+h3 {
+    color: #FFFFFF;
+}
+
+p {
+    width: 320px;
+    height: 120px;
+    color: #FFFFFF;
+}
+li {
+    list-style: none ;
+    color: #FFFFFF;
+}
+
+.footer1 {
+    width: 150px;
+    height: 320px; 
+    margin: 56px 0px 120px 100px;
+}
 
 
+.footer2 {
+    width: 150px;
+    height: 320px; 
+    margin: 56px 0px 120px 220px;
+}
 
 
-
-
-
+.footer3 {
+    width: 150px;
+    height: 320px; 
+    margin: 56px 0px 120px 100px;
+    font-size: 20px;
+}
 
 
    
